@@ -57,7 +57,7 @@
   margin-top: -50px;
 }
 
-.simple-gallery .image .description {
+.simple-gallery .image .title {
   background: #000;
   color: #fff;
   padding: 12px;
@@ -69,6 +69,12 @@
 
 .simple-gallery .modal .modal-dialog {
   width: 300px;
+}
+
+@media (min-width: 768px) {
+  .simple-gallery .modal .modal-dialog {
+    width: auto;
+  }
 }
 
 .simple-gallery .modal .image {
