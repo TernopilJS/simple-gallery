@@ -73,7 +73,7 @@
 
 @media (max-width: 768px) {
   .simple-gallery .modal .modal-dialog {
-    width: auto;
+    margin: 0 auto;
   }
 }
 
