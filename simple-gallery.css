@@ -71,7 +71,7 @@
   width: 300px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .simple-gallery .modal .modal-dialog {
     width: auto;
   }
