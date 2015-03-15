@@ -8,6 +8,14 @@
           column-gap: 0.3em;
 }
 
+.simple-gallery .menu {
+  display: table;
+  width: 100%;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+}
+
 .simple-gallery .image .image-container img {
   width: 100%;
 }
