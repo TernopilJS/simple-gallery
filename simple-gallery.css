@@ -1,11 +1,11 @@
 .simple-gallery {
   -webkit-columns: 7 250px;
   -webkit-columns: 250px;
-       -moz-columns: 7 250px;
-            columns: 7 250px;
-    -webkit-column-gap: 0.3em;
-       -moz-column-gap: 0.3em;
-            column-gap: 0.3em;
+     -moz-columns: 7 250px;
+          columns: 7 250px;
+  -webkit-column-gap: 0.3em;
+     -moz-column-gap: 0.3em;
+          column-gap: 0.3em;
 }
 
 .simple-gallery .image .image-container img {
@@ -15,14 +15,9 @@
 .simple-gallery h1, .simple-gallery h2, .simple-gallery h3 {
   background-color: #000;
   color: #fff;
-  margin: 0 0 4px 0;
   font-family: inherit;
   font-weight: 100;
   text-align: center;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid-column;
-  display: table;
 }
 
 .simple-gallery h1 {
@@ -33,10 +28,10 @@
   padding: 6px;
 }
 
-.simple-gallery .image {
+.simple-gallery .image, .simple-gallery h1, .simple-gallery h2, .simple-gallery h3 {
   display: table;
   width: 100%;
-  margin-bottom: 4px;
+  margin: 0 0 4px 0;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid-column;
