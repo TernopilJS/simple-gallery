@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ternopiljs:simple-gallery',
-  version: '1.0.8',
+  version: '1.1.0',
   summary: 'Simple gallery for Meteor',
   git: 'https://github.com/TernopilJS/simple-gallery',
   documentation: 'README.md'
