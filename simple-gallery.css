@@ -16,6 +16,12 @@
   break-inside: avoid-column;
 }
 
+.simple-gallery .menu > h1 {
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+}
+
 .simple-gallery .image .image-container img {
   width: 100%;
 }
@@ -87,7 +93,7 @@
 }
 
 .simple-gallery .modal .modal-dialog {
-  width: 300px;
+  width: 340px;
 }
 
 .simple-gallery .modal .modal-content {
