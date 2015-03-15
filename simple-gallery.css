@@ -9,6 +9,10 @@
           column-gap: 0.3em;
 }
 
+.simple-gallery a, .simple-gallery a:hover {
+  color: #61B6DA;
+}
+
 .simple-gallery .menu {
   display: table;
   width: 100%;
