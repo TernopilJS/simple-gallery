@@ -119,3 +119,9 @@
 .simple-gallery .modal .image {
   margin: 0;
 }
+
+.load-more-container { 
+  text-align: center; 
+  padding-bottom: 20px; 
+  padding-top: 10px; 
+}
